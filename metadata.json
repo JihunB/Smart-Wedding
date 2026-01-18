@@ -1,0 +1,8 @@
+{
+  "name": "Smart Wedding Archiver",
+  "description": "A multi-tenant SaaS for wedding photo sharing and guestbooks with real-time updates and dual-track archiving.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
