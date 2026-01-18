@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { HashRouter, Routes, Route, useParams, Link } from 'react-router-dom';
-import { PhotoUpload } from './features/PhotoUpload';
-import { RealtimeGallery } from './features/RealtimeGallery';
-import { Guestbook } from './features/Guestbook';
+import { PhotoUpload } from './components/PhotoUpload';
+import { RealtimeGallery } from './components/RealtimeGallery';
+import { Guestbook } from './components/Guestbook';
 import { supabase } from './services/supabase';
 import { Wedding } from './types';
 import { Heart, MapPin, Calendar } from 'lucide-react';
